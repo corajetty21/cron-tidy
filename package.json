@@ -1,0 +1,17 @@
+{
+  "name": "cron-tidy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Normalizes messy cron expressions into a consistent canonical form",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "cron-tidy": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
