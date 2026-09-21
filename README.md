@@ -46,6 +46,16 @@ npx ts-node src/index.ts "0 12,9,12 * * MON,WED,FRI"
 
 (or run `npm run build` and invoke `dist/index.js` with node)
 
+## Tests
+
+```
+npm test
+```
+
+Compiles with `tsc` and runs the compiled `*.test.js` files under `dist`
+with Node's built-in test runner (`node --test`). No test framework is
+installed - `node:test` and `node:assert` are standard library.
+
 ## What it doesn't do yet
 
 - No support for Quartz-only syntax (`L`, `W`, `#`, `?`, seconds/year
